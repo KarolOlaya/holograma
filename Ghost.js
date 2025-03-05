@@ -48,7 +48,7 @@ const grupogirar = []; //OBJETO GIRAR
 
 const fbxLoader = new FBXLoader()
 fbxLoader.load('mushroom7.fbx', (object) => {
-    object.scale.set(0.006, 0.006, 0.006); // Escalar si es necesario tamaño
+    object.scale.set(0.009, 0.009, 0.009); // Escalar si es necesario tamaño
     object.position.set(0,-2,0);
     scene.add(object);
     grupogirar.push(object);
