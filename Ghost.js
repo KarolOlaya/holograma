@@ -34,7 +34,7 @@ import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
 
 //Escena
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x9eedff);
+    scene.background = new THREE.Color(0x000000);
 
     const hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff,1);
     hemiLight.color.setHSL(10,10,10);
