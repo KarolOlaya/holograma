@@ -8,7 +8,7 @@ import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
     let camera, scene, renderer, effect;
 
     let textureLoader = new THREE.TextureLoader();
-    let textura = textureLoader.load('/shroom_Base_Color2.png'); 
+    let textura = textureLoader.load('shroom_Base_Color2.png'); 
 
 
 //Se crea un contenedor
@@ -47,7 +47,7 @@ import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
 const grupogirar = []; //OBJETO GIRAR
 
 const fbxLoader = new FBXLoader()
-fbxLoader.load('/mushroom7.fbx', (object) => {
+fbxLoader.load('mushroom7.fbx', (object) => {
     object.scale.set(0.006, 0.006, 0.006); // Escalar si es necesario tamaño
     object.position.set(0,-2,0);
     scene.add(object);
